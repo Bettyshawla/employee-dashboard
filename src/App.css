@@ -1,38 +1,102 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
+  border: solid black;
+  /* background-color: rgb(173, 181, 255); */
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SearchBar {
+  border: green solid;
+  margin: 5px 5px 5px 5px;
+  height: 5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Input {
+  width: 90%;
+  margin-top: 4px;
+  margin-left: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.Homepage {
+  border: orange solid;
+  margin: 5px 5px 5px 5px;
+ 
+}
+.Header {
+  border: inset blue;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  flex-direction: center;
+}
+
+.employeeList {
+  border: violet solid;
+  margin-bottom: 20px;
+  margin: 5px 5px 5px 5px;
+  
+}
+
+img {
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.imgs{
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.text {
+  display: inline-block;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 15px;
+}
+
+.employeeName {
+  border: red solid;
+  margin-bottom: 20px;
+  margin: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.title {
+  color: dimgray;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
   color: white;
+  padding: 15px;
+  font-size: 1.6em;
 }
 
-.App-link {
-  color: #61dafb;
+.nav a {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employeeinfo{
+border: solid black;
+  width: 100vw;
+  height: 110vh;
+  background-color: antiquewhite;
+}
+
+.class{
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+}
+
+.number{
+  font-size: xx-large;
+  font-weight: bolder;
 }
