@@ -4,6 +4,7 @@
   border: solid black;
   /* background-color: rgb(173, 181, 255); */
   width: 100vw;
+  background-color: rgb(238, 230, 222);
 }
 
 .SearchBar {
@@ -85,9 +86,9 @@ img {
 
 .employeeinfo{
 border: solid black;
-  width: 100vw;
-  height: 110vh;
-  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(225, 213, 198);
 }
 
 .class{
